@@ -1,32 +1,27 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Ignore compiled binaries
+*.exe
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+*.dll
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
 *.out
-*.app
+
+# Ignore build directories
+/build/
+/output/
+
+# Ignore temporary and cache files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Ignore Visual Studio project files
+RoomReservation.sln
+RoomReservation.vcxproj
+RoomReservation.vcxproj.filters
+*.vcxproj.user
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
